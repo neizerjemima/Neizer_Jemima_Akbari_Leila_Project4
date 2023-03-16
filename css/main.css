@@ -1,0 +1,45 @@
+/*1--Hero Image--*/
+
+.hero {
+    background-color: #4C6158;
+    height: 590px;
+    margin-bottom: 10px;
+}
+
+.hero-text {
+    height: 105px;
+    margin-top: 158px;
+}
+
+.more {
+    height: 43px;
+    margin-bottom: 217px;
+    font-size: 11px;
+}
+
+/*--2.PROMO--*/
+#promo-con {
+    background-color: #E3E3E3;
+    height: 193px;
+    margin-bottom: 10px;
+
+}
+
+.promo-pic {
+    grid-row: 2/3;
+    height: 141px;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+#promo-text {
+    margin-top: 120px;
+    grid-row: 2/3;
+    height: 29px;
+    /* margin-top: -60px; */
+}
+
+#promo-text-2 {
+    display: none;
+}
