@@ -644,3 +644,181 @@
 
 }
 
+    /*---Destop: 1920---*/
+
+    @media screen and (min-width: 1920px) {
+        #main-logo {
+            order: -1;
+        }
+/*--1. Header--*/
+        #Nav-Desktop {
+            grid-row: 1/2;
+        }
+
+/*2--Hero Image--*/
+        .hero {
+            background-color: #4C6158;
+            height: 974px;   
+        }
+        
+        .hero-text {
+            height: 297px;  
+        }
+
+/*---3. PROMO---*/
+
+        #promo-con {
+            background-color: #E3E3E3;
+            height: 685px;
+        }
+
+        .more {
+            height: 51px;
+            margin-bottom: 538px;
+        }
+
+        .promo-pic {
+            grid-row: 2/3;
+            height: 387px;
+            margin-top: 25px;
+            margin-left: 55px;
+            margin-right: 55px;
+        }
+        
+        #promo-text {
+            margin-top: 0;
+            grid-row: 3/3;
+            height: 71px;
+            
+        }
+    
+        #promo-text-2 {
+            display: block;
+            grid-row: 3/3;
+            height: 71px;
+            
+        }
+
+/*---4.STORE---*/
+    #store {
+        background-color: #A0A0A0;
+        height: 1063px;
+    }
+    
+    .product1 {
+        height: 625px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    .product2 {
+        height: 625px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    .shop-more {
+        height: 47px;
+        margin-top: 24px;
+        grid-row: 4/4;
+        padding-bottom: 22px;
+        padding-top: 6px;
+        margin-right: 7px;
+    }
+   
+/*---5.BLOG---*/
+
+/*---5.HISTORY---*/
+#history {
+    height: 604px;
+    background-color: #989898;
+    margin-bottom: 8px;
+}
+
+.vid-1 {
+    border-radius: 50%;
+    text-align: center;
+    height: 139px;
+    margin-right: 9px;
+    background-color: #ffffff;
+}
+
+#vid-1 {    
+    margin-top: 88px;
+}
+
+#vid-2 {    
+    grid-row: 1/2;
+    margin-top: 225px;
+    margin-right: 28px;
+    margin-left: 0px;
+}
+
+#vid-3 {    
+    margin-right: 28px;
+    margin-left: 0px;
+    grid-row: 1/2;
+    margin-top: 361px;
+}
+
+#zima-history{
+    height: 47px;
+    margin-left: 11px;
+    grid-row: 1/2;
+    margin-top: 418px;
+}
+
+#history-info {
+    margin-right: 11px;
+    margin-left: 11px;
+    height: 328px;
+    margin-top: 70px;
+    grid-row: 1/2;
+}
+
+/*--6.Footer---*/
+#footer {
+    height: 419px;
+    background-color: #989898;
+}
+
+#footer-logo {
+    height: 182px;
+    margin-left: 13px;
+    padding-right: 38px;
+    margin-top: 40px;
+}
+
+#footer-nav {
+    height: 266px;
+    margin-left: 12px;
+    padding-right: 35px;
+    margin-top: 29px;
+}
+
+#contact {
+    height: 276px;
+    margin-left: 35px;
+    padding-left: 48px;
+    margin-top: 29px;
+}
+
+#submit-info {
+    height: 177px;
+    margin-left: 18px;
+    margin-right: 8px;
+    margin-top: 29px;
+    grid-row: 1/2;
+}
+
+#submit {
+    height: 47px;
+   margin-left: 17px;
+    grid-row: 1/2;
+    margin-top: 210px;
+}
+
+}
+
